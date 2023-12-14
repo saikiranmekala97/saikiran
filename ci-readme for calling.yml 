@@ -1,0 +1,17 @@
+name: Generate Readme
+
+on:
+  workflow_run:
+    workflows: ["Generate Terraform Docs"]
+    types:
+      - completed
+  pull_request:
+    branches:
+      - main
+    paths:
+      - README.yaml
+      - templates/README.md.gotmpl
+
+jobs:
+  ci-readme:
+    uses: MunichRe/github-actions-workflows/.github/workflows/ci-readme.yml@main

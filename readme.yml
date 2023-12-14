@@ -1,0 +1,40 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+#
+
+# Name of this project
+name: github-actions-workflows
+
+# Logo for this project
+#logo: ""
+
+# License of this project
+license:
+
+# Canonical GitHub repo
+github_repo: MunichRe/github-actions-workflows
+
+# Badges to display
+badges:
+
+#related: []
+
+# Short description of this project
+description: General purpose reusable Github Action workflows
+
+introduction: |-
+  Use provided [GitHub Actions reusable workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows) 
+  to implement consistent release workflow for Github Actions repositories across your organization.
+  Avoid duplication and simplify maintain of the workflows.
+
+references:
+  - name: "github-actions-workflows"
+    description: "Reusable workflows for different types of projects"
+    url: "https://github.com/MunichRe/github-actions-workflows"
+
+include:
+  - "docs/github-actions-reusable-workflows.md"
+
+# Contributors to this project
+contributors:

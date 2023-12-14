@@ -1,0 +1,32 @@
+name: terraform-example-module
+
+license:
+
+github_repo: MunichRe/terraform-example-module
+
+description: |-
+  This is an example project to provide all the scaffolding for a typical well-built
+  Terraform module. It's a template repository you can
+  use when creating new repositories. This is not a useful module by itself.
+
+quickstart: |-
+  1. Use this repo as a template for a new repo.
+
+include:
+  - "docs/terraform.md"
+
+references:
+  - name: "Terraform Standard Module Structure"
+    description: "HashiCorp's standard module structure is a file and directory layout we recommend for reusable modules distributed in separate repositories."
+    url: "https://developer.hashicorp.com/terraform/language/modules/develop/structure"
+  - name: "Terraform Module Requirements"
+    description: "HashiCorp's guidance on all the requirements for publishing a module. Meeting the requirements for publishing a module is extremely easy."
+    url: "https://developer.hashicorp.com/terraform/language/modules/develop/structure"
+  - name: "Terraform Version Pinning"
+    description: "The required_version setting can be used to constrain which versions of the Terraform CLI can be used with your configuration"
+    url: "https://developer.hashicorp.com/terraform/language/settings#specifying-a-required-terraform-version"
+
+related:
+  - name: "terraform-null-label"
+    description: "Terraform module designed to generate consistent names and tags for resources. Use terraform-null-label to implement a strict naming convention."
+    url: "https://github.com/cloudposse/terraform-null-label"
