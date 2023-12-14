@@ -10,8 +10,10 @@ on:
       - main
     paths:
       - README.yaml
-      - templates/README.md.gotmpl
 
 jobs:
   ci-readme:
     uses: MunichRe/github-actions-workflows/.github/workflows/ci-readme.yml@main
+    with:
+      readme-template-file: README.md.gotmpl
+    secrets: inherit
